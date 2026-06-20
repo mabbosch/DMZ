@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Proyecto DMZ</title>
+  <meta charset="UTF-8">
+  <title>Proyecto DMZ</title>
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #60a5fa;
+    }
+
+    p.subtitle {
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    a.button:hover {
+      background: #1d4ed8;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Diseño e implementación de una DMZ</h1>
+  <div class="container">
 
-    <h2>Descripción</h2>
-    <p>
-        Proyecto de diseño e implementación de una infraestructura de red segura
-        utilizando una zona desmilitarizada (DMZ).
-    </p>
+    <header>
+      <h1>Proyecto DMZ</h1>
+      <p class="subtitle">
+        Diseño e implementación de una infraestructura de red segura con zona desmilitarizada (DMZ)
+      </p>
+    </header>
 
-    <h2>Documentación</h2>
-    <p>
-        <a href="diseño_dmz.pdf">📄 Ver informe completo (PDF)</a>
-    </p>
+    <div class="card">
+      <h2>📄 Documentación</h2>
+      <p>Informe completo del proyecto en formato PDF.</p>
+      <a class="button" href="diseño_dmz.pdf">Ver informe</a>
+    </div>
 
-    <h2>Tecnologías</h2>
-    <ul>
-        <li>Virtualización</li>
+    <div class="card">
+      <h2>🧠 Objetivo</h2>
+      <p>
+        Diseñar una arquitectura de red segura separando servicios internos y externos mediante una DMZ.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>⚙️ Tecnologías</h2>
+      <ul>
         <li>Redes TCP/IP</li>
-        <li>Firewall</li>
-        <li>DMZ</li>
-    </ul>
+        <li>Virtualización</li>
+        <li>Firewalls</li>
+        <li>Segmentación de red</li>
+      </ul>
+    </div>
+
+    <footer>
+      Proyecto alojado en GitHub Pages
+    </footer>
+
+  </div>
 </body>
 </html>
