@@ -1,73 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Systems Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marta Bargués | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="topbar">
-  <h1>Marta Bargués</h1>
-  <p class="subtitle">Systems • Networking • Infrastructure • Security</p>
-</header>
+<div class="layout">
 
-<nav class="nav">
-  <a href="index.html">home</a>
-  <a href="proyectos.html">projects</a>
-  <a href="habilidades.html">skills</a>
-  <a href="estudios.html">education</a>
-  <a href="contacto.html">contact</a>
-</nav>
+    <aside class="sidebar">
 
-<main class="container">
+        <div class="logo">
+            <h2>Marta Bargués</h2>
+            <p>Systems · Networks · Security</p>
+            <img src="imagen3.png" alt="Marta Bargués" class="profile-photo">
+        </div>
 
-  <section class="card">
-    <div class="label">about</div>
-    <p>
-      Técnico en sistemas, redes e infraestructura IT con experiencia en entornos virtualizados,
-      Linux y diseño de redes.
-    </p>
-    <p>
-      Interesada en administración de sistemas, soporte IT y seguridad en entornos corporativos.
-    </p>
-  </section>
+        <nav>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="apuntes.html">Apuntes</a>
+            <a href="writeups.html">Writeups</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
 
-  <section class="grid">
+    </aside>
 
-    <div class="card">
-      <div class="label">focus</div>
-      <ul>
-        <li>System Administration</li>
-        <li>Network Infrastructure</li>
-        <li>Virtualization Labs</li>
-        <li>Security Basics</li>
-      </ul>
-    </div>
+    <main class="content">
 
-    <div class="card">
-      <div class="label">current</div>
-      <p>
-        Laboratorios de redes, virtualización y análisis de seguridad.
-        Implementación de arquitectura DMZ.
-      </p>
-    </div>
+        <section class="hero">
+            <h1>Administración de Sistemas, Redes y Seguridad</h1>
 
-  </section>
+            <p>
+                Estudiante de ASIR con formación en sistemas,
+                redes, virtualización, cloud y ciberseguridad.
+            </p>
 
-  <section class="card highlight">
-    <div class="label">projects</div>
-    <p>Laboratorios técnicos y writeups de sistemas y seguridad.</p>
-    <a class="button" href="proyectos.html">View Projects →</a>
-  </section>
+            <p>
+                Interesada en posiciones de Sistemas,
+                Infraestructura, Redes y Seguridad.
+            </p>
+        </section>
 
-</main>
+        <section>
+            <h2>Skills técnicas</h2>
 
-<footer class="footer">
-  Systems & Infrastructure Portfolio
-</footer>
+            <div class="skills">
+
+                <div class="card">
+                    <h3>Sistemas</h3>
+                    <p>Windows Server, Ubuntu Server, Active Directory, GPO</p>
+                </div>
+
+                <div class="card">
+                    <h3>Redes</h3>
+                    <p>TCP/IP, DNS, DHCP, VLAN, VPN, Firewall</p>
+                </div>
+
+                <div class="card">
+                    <h3>Cloud</h3>
+                    <p>Azure, VNet, NSG, Azure AD</p>
+                </div>
+
+                <div class="card">
+                    <h3>Seguridad</h3>
+                    <p>Wazuh, Wireshark, OpenVAS, Nmap, Metasploit</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Formación</h2>
+
+            <div class="card">
+                <ul>
+                    <li>CFGS ASIR (en curso)</li>
+                    <li>CP3 Seguridad Informática</li>
+                    <li>Ciberseguridad en entornos híbridos (950h)</li>
+                    <li>Microsoft SC-900</li>
+                    <li>Programación con Python</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Proyectos destacados</h2>
+
+            <a class="project-card" href="#">
+                <h3>Diseño e implementación de una infraestructura de red segura con DMZ</h3>
+            </a>
+
+            <a class="project-card" href="#">
+                <h3>Análisis comparativo del comportamiento de distintos tipos de malware</h3>
+            </a>
+
+            <a class="project-card" href="#">
+                <h3>Laboratorio de Simulación de Phishing</h3>
+            </a>
+        </section>
+
+    </main>
+
+</div>
 
 </body>
 </html>
