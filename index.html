@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio | Systems & Security</title>
+  <title>Systems Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -11,21 +11,21 @@
 
 <header class="topbar">
   <h1>Marta Bargués</h1>
-  <p>Systems • Networking • Infrastructure • Security</p>
+  <p class="subtitle">Systems • Networking • Infrastructure • Security</p>
 </header>
 
 <nav class="nav">
-  <a href="index.html">~/home</a>
-  <a href="proyectos.html">~/projects</a>
-  <a href="habilidades.html">~/skills</a>
-  <a href="estudios.html">~/education</a>
-  <a href="contacto.html">~/contact</a>
+  <a href="index.html">home</a>
+  <a href="proyectos.html">projects</a>
+  <a href="habilidades.html">skills</a>
+  <a href="estudios.html">education</a>
+  <a href="contacto.html">contact</a>
 </nav>
 
 <main class="container">
 
   <section class="card">
-    <h2>~/about</h2>
+    <div class="label">about</div>
     <p>
       Técnico en sistemas, redes e infraestructura IT con experiencia en entornos virtualizados,
       Linux y diseño de redes.
@@ -35,34 +35,38 @@
     </p>
   </section>
 
-  <section class="card">
-    <h2>~/focus</h2>
-    <ul>
-      <li>System Administration (Linux / Windows)</li>
-      <li>Network Infrastructure & Segmentation</li>
-      <li>Virtualization & Lab Environments</li>
-      <li>Security Fundamentals & Analysis</li>
-    </ul>
-  </section>
+  <section class="grid">
 
-  <section class="card">
-    <h2>~/current</h2>
-    <p>
-      Desarrollo de laboratorios de redes y seguridad mediante entornos virtualizados.
-      Implementación de arquitectura de red (DMZ) y análisis de sistemas.
-    </p>
+    <div class="card">
+      <div class="label">focus</div>
+      <ul>
+        <li>System Administration</li>
+        <li>Network Infrastructure</li>
+        <li>Virtualization Labs</li>
+        <li>Security Basics</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="label">current</div>
+      <p>
+        Laboratorios de redes, virtualización y análisis de seguridad.
+        Implementación de arquitectura DMZ.
+      </p>
+    </div>
+
   </section>
 
   <section class="card highlight">
-    <h2>~/projects</h2>
-    <p>Explora mis laboratorios y writeups técnicos.</p>
+    <div class="label">projects</div>
+    <p>Laboratorios técnicos y writeups de sistemas y seguridad.</p>
     <a class="button" href="proyectos.html">View Projects →</a>
   </section>
 
 </main>
 
 <footer class="footer">
-  <p>Systems & Infrastructure Portfolio</p>
+  Systems & Infrastructure Portfolio
 </footer>
 
 </body>

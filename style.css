@@ -5,46 +5,44 @@
 }
 
 body {
-  font-family: ui-sans-serif, system-ui, Arial;
+  font-family: ui-sans-serif, system-ui;
   background: #0b1220;
   color: #e5e7eb;
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 .topbar {
   text-align: center;
-  padding: 40px 20px;
-  background: #111827;
-  border-bottom: 1px solid #1f2937;
+  padding: 50px 20px 25px;
 }
 
 .topbar h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #60a5fa;
 }
 
-.topbar p {
+.subtitle {
   color: #9ca3af;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
-/* ===== NAV ===== */
+/* NAV */
 .nav {
   display: flex;
   justify-content: center;
-  gap: 18px;
-  padding: 12px;
-  background: #0f172a;
+  gap: 14px;
   flex-wrap: wrap;
+  padding: 10px;
+  border-top: 1px solid #1f2937;
+  border-bottom: 1px solid #1f2937;
 }
 
 .nav a {
-  color: #e5e7eb;
+  color: #cbd5e1;
   text-decoration: none;
   padding: 6px 10px;
   border-radius: 6px;
-  transition: 0.2s;
 }
 
 .nav a:hover {
@@ -52,48 +50,44 @@ body {
   color: #38bdf8;
 }
 
-/* ===== LAYOUT ===== */
+/* LAYOUT */
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 30px 20px;
 }
 
-/* ===== CARDS ===== */
+/* CARDS */
 .card {
   background: #111827;
   border: 1px solid #1f2937;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 18px;
-  transition: 0.2s;
+  padding: 18px;
+  margin-bottom: 16px;
 }
 
-.card:hover {
-  transform: translateY(-2px);
-  border-color: #374151;
-}
-
-.card h2 {
+/* etiqueta estilo terminal */
+.label {
+  font-size: 0.75rem;
   color: #38bdf8;
   margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-/* ===== LISTAS ===== */
-ul {
-  padding-left: 18px;
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
 }
 
-li {
-  margin-bottom: 6px;
-  color: #d1d5db;
-}
-
-/* ===== HIGHLIGHT CARD ===== */
+/* highlight */
 .highlight {
-  border: 1px solid #2563eb;
+  border-color: #2563eb;
 }
 
+/* button */
 .button {
   display: inline-block;
   margin-top: 10px;
@@ -104,14 +98,10 @@ li {
   border-radius: 8px;
 }
 
-.button:hover {
-  background: #1d4ed8;
-}
-
-/* ===== FOOTER ===== */
+/* footer */
 .footer {
   text-align: center;
   padding: 25px;
   color: #6b7280;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
